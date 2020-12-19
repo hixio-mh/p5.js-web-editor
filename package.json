@@ -150,7 +150,7 @@
     "express-basic-auth": "^1.2.0",
     "express-session": "^1.17.0",
     "friendly-words": "^1.1.10",
-    "htmlhint": "^0.10.1",
+    "htmlhint": "^0.14.2",
     "is-url": "^1.2.4",
     "jest-express": "^1.11.0",
     "js-beautify": "^1.10.3",
