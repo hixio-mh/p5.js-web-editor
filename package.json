@@ -23,7 +23,9 @@
     "update-syntax-highlighting": "node ./server/scripts/update-syntax-highlighting.js",
     "heroku-postbuild": "touch .env; npm run build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -207,6 +209,8 @@
     "webpack": "^4.41.6",
     "webpack-dev-middleware": "^2.0.6",
     "webpack-hot-middleware": "^2.24.3",
-    "xhr": "^2.5.0"
-  }
+    "xhr": "^2.5.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
